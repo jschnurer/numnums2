@@ -20,4 +20,7 @@ export async function find(collection: mongodb.Collection<mongodb.Document>, fin
 
 export enum MongoCollections {
   Reviews = "reviews",
+  Restaurants = "restaurants",
+  Food = "food",
+  Users = "users",
 }
